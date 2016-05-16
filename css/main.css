@@ -99,6 +99,15 @@ a:visited {
     line-height: 56px;
 }
 
+.nav-item > a {
+  color:white;
+}
+
+.nav-item > a:hover {
+  color:#ff7302;
+  background-color: #222222 !important;
+}
+
 .site-nav .menu-icon {
     display: none;
 }
