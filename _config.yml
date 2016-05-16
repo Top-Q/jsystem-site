@@ -1,0 +1,12 @@
+# Site settings
+title: JSystem
+email: itai.agmon@top-q.co.il
+description: "JSystem is a professional open-source framework for writing and managing automated system tests."
+baseurl: "/jsystem-site"
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  itaiag
+
+# Build settings
+markdown: kramdown
+permalink: pretty

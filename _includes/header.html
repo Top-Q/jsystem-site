@@ -1,0 +1,17 @@
+<header class="site-header">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <div class="wrap">
+        <div id="header_wrap" class="outer">
+            <img src="assets/jsystem-logo-04.png">
+            <!-- <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+            <ul class="nav navbar-nav navbar-inverse navbar-right">
+                {% for page in site.pages %} {% if page.title and page.layout != "sidebar" %}
+                <li class="nav-item">
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %} {% endfor %}
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
